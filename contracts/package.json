@@ -1,0 +1,16 @@
+{
+  "name": "bulk-sms-contracts",
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.0"
+  }
+}
